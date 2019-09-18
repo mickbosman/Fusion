@@ -57,12 +57,14 @@ p {
 	width: auto;
 	height: 75px;
 	margin-top: -5px;
+	margin-left: 380px;
 }
 
 .navigation-bar {
 	width: 100%;
 	position: fixed;
 	z-index: 1;
+		background-color: #0D3691;
 }
 
 .nav-colored {
@@ -73,18 +75,16 @@ p {
 	box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 }
 
-.nav-transparent {
-	background-color: transparent;
-	transition: background-color 0.3s linear;
-}
-
 .navigation-bar ul {
 	margin: 0;
 	list-style: none;
 }
 
-.navigation-bar ul li {
+.navigation-bar ul .nav-left-list {
 	float: left;
+}
+.navigation-bar ul .nav-right-list {
+	float: right;
 }
 
 .navigation-bar ul li a {
@@ -190,7 +190,7 @@ p {
 	z-index: 100;
 	top: 0;
 	right: 0;
-	background-color: #98be99;
+	background-color: #0D3691;
 	overflow-x: hidden;
 	padding-top: 75px;
 	transition: 0.5s;
@@ -267,7 +267,7 @@ p {
 	position: fixed;
 	z-index: 1;
 	top: 0;
-	background-color: #a9d3aa;
+	background-color: #0D3691;
 	transition: background-color 250ms linear;
 	-webkit-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 	-moz-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
@@ -326,11 +326,13 @@ p {
 	width: 100vw;
 	height: 100vh;
 	padding-top: 60px;
-	background-color: #0D3691;
+	background-image: url(links/stockfoto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .logo-home {
-	width: 600px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -451,7 +453,7 @@ p {
 
 #projecten {
 	padding: 100px 120px 100px 120px;
-	background-color: #a9d3aa;
+	background-color: #0D3691;
 	width: 100vw;
 }
 
