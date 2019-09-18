@@ -9,13 +9,13 @@ html, body {
 }
 
 h1 {
-	color: #C4B356;
-	font-size: 75px;
+	color: white;
+	font-size: 55px;
 	font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-	color: #8eadb2;
+	color: white;
 	font-size: 45px;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -332,6 +332,23 @@ p {
 
 }
 
+.home-content h2{
+    margin-top: 100px;
+		color: white;
+		font-size: 45px;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin-bottom: 40px;
+
+}
+.home-content h4{
+    margin-top: 100px;
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		margin-bottom: 40px;
+
+}
 .logo-home {
 	display: block;
 	margin-left: auto;
@@ -370,37 +387,7 @@ p {
 	display: inline-block;
 }
 
-.arrow {
-	width: 45px;
-	/*
-	display: block;
-	margin: 0 auto;
-	padding-top: 30px;
-	*/
-	position: relative;
-	opacity: 0.7;
 
-	animation-name: arrow;
-	-webkit-animation-name: arrow;
-	animation-duration: 3s;
-	-webkit-animation-duration: 3s;
-	animation-iteration-count: infinite;
-	-webkit-animation-iteration-count: infinite;
-}
-
-@keyframes arrow {
-	0% { top: 20px }
-	50% { top: 35px; }
-	100% { top: 20px }
-}
-
-@-webkit-keyframes arrow {
-	0% { top: 20px }
-	50% { top: 35px; }
-	100% { top: 20px }
-}
-
-/* 767, 468 */
 
 @media screen and (max-width: 1024px) {
 	#home {
