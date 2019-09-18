@@ -313,6 +313,21 @@ p {
 .topbutton img:hover {
 	opacity: 1;
 }
+.btn1{
+  position: relative;
+  background-color: #1368B6;
+  border: none;
+  margin: 20px auto;
+  padding: 24px;
+  width: 240px;
+  height: 80px;
+  grid-area: home-content1;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  background-size: 200%;
+	top: 200px;
+}
 
 @media screen and (max-width: 1024px) {
 	.topbutton {
@@ -332,29 +347,28 @@ p {
   background-size: cover;
 
 }
+.home-container {
+	display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+  "home-content1 home-content2";
+}
 
-.home-content h2{
+.home-container h2{
     margin-top: 100px;
 		color: white;
 		font-size: 45px;
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
 		margin-bottom: 40px;
-
-}
-.home-content h4{
-    margin-top: 100px;
-		color: white;
-		font-family: 'Open Sans', sans-serif;
-		text-align: center;
-		margin-bottom: 40px;
+		grid-area: home-content1;
 
 }
 .logo-home {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 145px;
+	width: auto;
+	height: 300px;
+	top: 20px;
+	grid-area: home-content2;
 }
 
 .quote-home {
@@ -700,7 +714,7 @@ p {
 footer {
 	padding: 40px 84px 30px 84px;
 	height: 100%;
-	background-color: #a9d3aa;
+	background-color: #0D3691;
 }
 
 footer p {
@@ -889,7 +903,7 @@ label {
 	width: 100vw;
 	position: fixed;
 	z-index: 1000;
-	background-color: #a9d3aa;
+	background-color: #0D3691;
 	transition: background-color 250ms linear;
 	-webkit-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 	-moz-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
