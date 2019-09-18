@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-	color: white;
+	color: black;
 	font-size: 45px;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -479,7 +479,7 @@ p {
 	margin: 13px;
 	opacity: 0;
 	transition: .5s;
-	background-color: rgba(142,173,178,0.8);
+	background-color: #0D3691;
 }
 
 .content-overlay {
