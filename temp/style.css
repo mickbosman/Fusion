@@ -64,7 +64,7 @@ p {
 	z-index: 1;
 }
 
-.nav-colored { 
+.nav-colored {
 	background-color: #a9d3aa;
 	transition: background-color 0.3s linear;
 	-webkit-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
@@ -72,7 +72,7 @@ p {
 	box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 }
 
-.nav-transparent { 
+.nav-transparent {
 	background-color: transparent;
 	transition: background-color 0.3s linear;
 }
@@ -325,7 +325,7 @@ p {
 	width: 100vw;
 	height: 100vh;
 	padding-top: 60px;
-	background-color: #a9d3aa;
+	background-color: #0D3691;
 }
 
 .logo-home {
@@ -450,7 +450,7 @@ p {
 
 #projecten {
 	padding: 100px 120px 100px 120px;
-	background-color: #a9d3aa; 
+	background-color: #a9d3aa;
 	width: 100vw;
 }
 
@@ -545,7 +545,7 @@ p {
 @media screen and (max-width: 1024px) {
 	#projecten {
 		margin-top: -40px;
-		padding: 100px 20px 100px 20px; 
+		padding: 100px 20px 100px 20px;
 	}
 }
 
@@ -586,20 +586,20 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-	
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
-	
+
 }
 
 @media screen and (min-width: 1024px) {
-	
+
 }
 
 @media screen and (max-width: 1024px) {
 	#onsteam {
-		padding: 100px 20px 100px 20px; 
+		padding: 100px 20px 100px 20px;
 	}
 }
 
@@ -608,7 +608,7 @@ p {
 #vacatures {
 	padding: 100px 70px 100px 70px;
 	background-color: #c5d1d3;
-	width: 100vw; 
+	width: 100vw;
 }
 
 .h2-vacatures {
@@ -650,7 +650,7 @@ p {
 
 @media screen and (max-width: 1024px) {
 	#vacatures {
-		padding: 100px 20px 100px 20px!important; 
+		padding: 100px 20px 100px 20px!important;
 	}
 
 	.h2-vacatures {
@@ -686,12 +686,12 @@ p {
 }
 
 .link-contact:hover {
-	color: #767676; 
+	color: #767676;
 }
 
 @media screen and (max-width: 1024px) {
 	#contact {
-		padding: 65px 27px 65px 27px; 
+		padding: 65px 27px 65px 27px;
 	}
 
 	.h2-contact {
