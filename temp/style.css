@@ -52,12 +52,14 @@ p {
 }
 
 /* --------------------------- Navbar --------------------------- */
-
+.center{
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .logo-navbar {
-	width: auto;
 	height: 75px;
-	margin-top: -5px;
-	margin-left: 380px;
+
 }
 
 .navigation-bar {
@@ -80,23 +82,22 @@ p {
 	list-style: none;
 }
 
-.navigation-bar ul .nav-left-list {
-	float: left;
-}
-.navigation-bar ul .nav-right-list {
-	float: right;
+
+.navigation-bar ul .nav-center-list {
+	margin:0 50px;
 }
 
 .navigation-bar ul li a {
 	font-size: 20px;
 	padding: 0px 0px 8px 0px;
-	margin: 29px 45px 23px 0px;
+	margin: 10px 45px 0px 0px;
 	float: left;
 	color: white;
 	transition: .3s;
 	position: relative;
 	display: inline-block;
 	letter-spacing: 1px;
+	line-height: 4;
 }
 
 .navigation-bar ul li a:hover,
