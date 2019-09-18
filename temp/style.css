@@ -317,7 +317,7 @@ p {
   position: relative;
   background-color: #1368B6;
   border: none;
-  margin: 20px auto;
+
   padding: 24px;
   width: 240px;
   height: 80px;
@@ -326,7 +326,8 @@ p {
   cursor: pointer;
   color: #fff;
   background-size: 200%;
-	top: 200px;
+
+	margin-left: 440px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -360,14 +361,16 @@ p {
 		font-size: 45px;
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
-		margin-bottom: 40px;
+    margin-top: 280px;
+		
 		grid-area: home-content1;
 
 }
 .logo-home {
 	width: auto;
 	height: 300px;
-	top: 20px;
+	margin-top: 150px;
+	margin-right: 20px;
 	grid-area: home-content2;
 }
 
