@@ -456,22 +456,22 @@ p {
 #Watdoenwe{
 	background-color: blue;
 	height: 600px;
-}
-.Images-grid{
+	}
+	.Images-grid{
 	display: grid;
-  grid-template-columns: 1fr 520px;
-  grid-template-areas:
-  "home-content1""home-content2"
+		grid-template-columns: 1fr 520px;
+		grid-template-areas:
+		"home-content1""home-content2"
 	"home-content1""home-content2"
 	;
-
-}
-.Images-Watdoenwe1 img{
- grid-area: home-content1;
- width: auto;
- padding: 10px;
- height: 270px;
-}
+	
+	}
+	.Images-Watdoenwe1 img{
+	 grid-area: home-content1;
+	 width: auto;
+	 padding: 10px;
+	 height: 270px;
+	}
 
 
 
@@ -696,7 +696,6 @@ p {
 
 footer {
 	padding: 40px 84px 30px 84px;
-	height: 100%;
 	background-color: #0D3691;
 }
 
