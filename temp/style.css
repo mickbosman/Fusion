@@ -457,14 +457,14 @@ p {
 	background-color: blue;
 	height: 600px;
 	}
-	.Images-grid{
+.Images-grid{
+	margin-top: 20px;
 	display: grid;
-		grid-template-columns: 1fr 520px;
+		grid-template-columns: 1fr 400px;
 		grid-template-areas:
 		"home-content1""home-content2"
-	"home-content1""home-content2"
-	;
-	
+	  "home-content1""home-content2";
+
 	}
 	.Images-Watdoenwe1 img{
 	 grid-area: home-content1;
