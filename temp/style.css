@@ -439,6 +439,28 @@ p {
 	}
 }
 /* ---------------------------Wat Doen Wij --------------------------- */
+#Watdoenwe{
+	background-color: blue;
+	height: 600px;
+}
+.Images-grid{
+	display: grid;
+
+  grid-template-columns: 1fr 520px;
+  grid-template-areas:
+  "home-content1""home-content2"
+	"home-content1""home-content2"
+	;
+
+}
+.Images-Watdoenwe1 img{
+ grid-area: home-content1
+ width: auto;
+ padding: 10px;
+ height: 270px;
+}
+
+
 
 /* ---------------------------Ons Doel --------------------------- */
 
