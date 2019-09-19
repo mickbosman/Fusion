@@ -421,11 +421,9 @@ p {
 	}
 
 	.logo-home {
-		width: 400px;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 145px;
+		width: auto;
+    height: 250px;
+    margin-top: 25%;
 	}
 
 	.quote-home {
@@ -485,7 +483,7 @@ p {
 }
 
 .img-section:hover .overlay {
-	opacity: 1;
+	opacity: 0.7;
 }
 
 .overlay {
