@@ -89,7 +89,7 @@ p {
 
 .navigation-bar ul li a {
 	font-size: 20px;
-	padding:0 !important; 
+	padding:0 !important;
 	margin: 10px 45px 0px 0px;
 	color: white;
 	transition: .3s;
@@ -459,7 +459,6 @@ p {
 }
 .Images-grid{
 	display: grid;
-
   grid-template-columns: 1fr 520px;
   grid-template-areas:
   "home-content1""home-content2"
