@@ -1,6 +1,6 @@
 
 /*
-font-family: 'Open Sans', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
 */
 
 html, body {
@@ -11,13 +11,13 @@ html, body {
 h1 {
 	color: white;
 	font-size: 55px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 }
 
 h2 {
 	color: black;
 	font-size: 45px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align: center;
 	margin-bottom: 40px;
 }
@@ -25,19 +25,19 @@ h2 {
 h3 {
 	color: #98c5cd;
 	font-size: 33px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	text-align: center;
 	margin-bottom: 35px;
 	font-weight: 300;
 }
 
 a {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 16px;
 }
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 16px;
 	line-height: 25px;
 	color: #4c4c4c;
@@ -89,9 +89,8 @@ p {
 
 .navigation-bar ul li a {
 	font-size: 20px;
-	padding: 0px 0px 8px 0px;
+	padding:0 !important; 
 	margin: 10px 45px 0px 0px;
-	float: left;
 	color: white;
 	transition: .3s;
 	position: relative;
@@ -359,7 +358,7 @@ p {
     margin-top: 100px;
 		color: white;
 		font-size: 45px;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Nanum Gothic', sans-serif;
 		text-align: center;
     margin-top: 280px;
 
@@ -372,6 +371,10 @@ p {
 	margin-top: 150px;
 	margin-right: 20px;
 	grid-area: home-content2;
+}
+.logo-home2 {
+	width: auto;
+	height: 300px;
 }
 
 .quote-home {
@@ -420,10 +423,10 @@ p {
 		bottom: 0;
 	}
 
-	.logo-home {
+	.logo-home2 {
 		width: auto;
     height: 250px;
-    margin-top: 25%;
+		margin-top: 25%;
 	}
 
 	.quote-home {
@@ -438,6 +441,17 @@ p {
 	    transform: rotate(3deg);
 	}
 }
+@media screen and (max-width: 768px) {
+	.logo-home2 {
+		margin-left: 15%;
+	}
+}
+@media screen and (max-width: 480px){
+	.logo-home2 {
+		height: 175px;
+	}
+}
+
 /* ---------------------------Wat Doen Wij --------------------------- */
 #Watdoenwe{
 	background-color: blue;
@@ -454,7 +468,7 @@ p {
 
 }
 .Images-Watdoenwe1 img{
- grid-area: home-content1
+ grid-area: home-content1;
  width: auto;
  padding: 10px;
  height: 270px;
@@ -631,7 +645,6 @@ p {
 		padding: 100px 20px 100px 20px;
 	}
 }
-
 
 /* --------------------------- Contact --------------------------- */
 
@@ -885,7 +898,6 @@ label {
 	font-size: 20px;
 	padding: 0px 0px 8px 0px;
 	margin: 29px 25px 23px 40px;
-	float: left;
 	color: white;
 	transition: .3s;
 	position: relative;
