@@ -362,7 +362,7 @@ p {
 		font-family: 'Open Sans', sans-serif;
 		text-align: center;
     margin-top: 280px;
-		
+
 		grid-area: home-content1;
 
 }
@@ -440,8 +440,9 @@ p {
 	    transform: rotate(3deg);
 	}
 }
+/* ---------------------------Wat Doen Wij --------------------------- */
 
-/* --------------------------- Missie --------------------------- */
+/* ---------------------------Ons Doel --------------------------- */
 
 #missie {
 	padding: 100px 70px 100px 70px;
@@ -611,59 +612,6 @@ p {
 	}
 }
 
-/* --------------------------- Vacatures --------------------------- */
-
-#vacatures {
-	padding: 100px 70px 100px 70px;
-	background-color: #c5d1d3;
-	width: 100vw;
-}
-
-.h2-vacatures {
-	margin-top: 0!important;
-	color: white;
-}
-
-.a-vacature:hover {
-	text-decoration: none;
-}
-
-.vacature1 {
-	margin-bottom: 30px;
-}
-
-.vacature {
-	padding: 30px;
-	width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0!important;
-	background-color: white;
-	transition: .3s;
-}
-
-.vacature:hover {
-	-webkit-box-shadow: 0px 0px 61px -3px rgba(0,0,0,0.41);
-	-moz-box-shadow: 0px 0px 61px -3px rgba(0,0,0,0.41);
-	box-shadow: 0px 0px 61px -3px rgba(0,0,0,0.41);
-	transform: scale(1.02);
-}
-
-.h3-vacature {
-	text-align: left;
-	margin: 0;
-	margin-bottom: 10px;
-}
-
-@media screen and (max-width: 1024px) {
-	#vacatures {
-		padding: 100px 20px 100px 20px!important;
-	}
-
-	.h2-vacatures {
-	}
-}
 
 /* --------------------------- Contact --------------------------- */
 
@@ -1028,7 +976,7 @@ ol.carousel-indicators li.active {
 
 /* ------- Read more ------- */
 
-.read-more-state {
+/* .read-more-state {
   display: none;
 }
 
@@ -1069,7 +1017,7 @@ ol.carousel-indicators li.active {
 
 .read-more-trigger:hover {
 	color: #959595;
-}
+} */
 
 /* ------- Panel ------- */
 
