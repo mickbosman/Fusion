@@ -327,7 +327,7 @@ p {
   color: #fff;
   background-size: 200%;
 line-height: 0;
-	margin-left: 455px;
+	margin-left: 430px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -414,9 +414,52 @@ line-height: 0;
 @media screen and (max-width: 1024px) {
 	#home {
 		padding-top: 100px!important;
-		background-image: none;
+		background-image: url(links/stockfoto.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
 		padding-top: 10px;
 	}
+
+	.home-container {
+		display: grid;
+	  grid-template-columns: 3fr 1fr;
+	  grid-template-areas:
+	  "home-content1 home-content2";
+	}
+
+	.home-container h2{
+	    margin-top: 100px;
+			color: white;
+			font-size: 45px;
+			font-family: 'Nanum Gothic', sans-serif;
+			text-align: center;
+	    margin-top: 280px;
+
+			grid-area: home-content1;
+
+	}
+	.logo-home {
+		width: auto;
+
+		grid-area: home-content2;
+	}
+	.btn1{
+	  position: relative;
+	  background-color: #1368B6;
+	  border: none;
+
+	  padding: 24px;
+	  width: 167px;
+	  height: 48px;
+	  grid-area: home-content1;
+	  border-radius: 50px;
+	  cursor: pointer;
+	  color: #fff;
+	  background-size: 200%;
+	line-height: 0;
+		margin-left: 455px;
+	}
+}
 
 	.div-arrow {
 		margin-top: 60px;
@@ -445,6 +488,52 @@ line-height: 0;
 @media screen and (max-width: 768px) {
 	.logo-home2 {
 		margin-left: 15%;
+
+	}
+	#home {
+		background-image: url(links/stockfoto.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+
+	}
+	.home-container {
+		display: grid;
+	  grid-template-columns: 3fr 1fr;
+	  grid-template-areas:
+	  "home-content1 home-content2";
+	}
+
+	.home-container h2{
+	    margin-top: 100px;
+			color: white;
+			font-size: 45px;
+			font-family: 'Nanum Gothic', sans-serif;
+			text-align: center;
+	    margin-top: 280px;
+
+			grid-area: home-content1;
+
+	}
+	.logo-home {
+		width: auto;
+
+		grid-area: home-content2;
+	}
+	.btn1{
+	  position: relative;
+	  background-color: #1368B6;
+	  border: none;
+
+	  padding: 24px;
+	  width: 167px;
+	  height: 48px;
+	  grid-area: home-content1;
+	  border-radius: 50px;
+	  cursor: pointer;
+	  color: #fff;
+	  background-size: 200%;
+	line-height: 0;
+		margin-left: 455px;
 	}
 }
 @media screen and (max-width: 480px){
