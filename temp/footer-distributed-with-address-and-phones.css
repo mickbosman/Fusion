@@ -7,7 +7,7 @@
 	font: bold 16px sans-serif;
 
 	padding: 55px 50px;
-	margin-top: 80px;
+
 }
 
 .footer-distributed .footer-left,
@@ -29,6 +29,7 @@
 	color:  #ffffff;
 	font: normal 36px 'Cookie', cursive;
 	margin: 0;
+	margin-right: 150px;
 }
 
 .footer-distributed h3 span{
