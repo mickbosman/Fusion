@@ -599,12 +599,17 @@ line-height: 0;
 	padding-bottom: 100px;
 }
 
+
 .alle-symbolen-2 {
 	margin-top: 35px;
+	margin-left: 7%;
 }
 
 .persoon-foto {
-	width: 90%;
+	width: 80%;
+}
+.persoon-foto-2 {
+	width: 100%;
 }
 
 .p-onsteam {
@@ -629,7 +634,12 @@ line-height: 0;
 }
 
 @media screen and (max-width: 480px) {
-
+	.persoon-foto {
+		width: 100%
+	}
+	.alle-symbolen-2 {
+		margin-left: 16.66666667%;
+	}
 }
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
