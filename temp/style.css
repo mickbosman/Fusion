@@ -695,66 +695,7 @@ line-height: 0;
 
 /* --------------------------- Footer --------------------------- */
 
-footer {
-	padding: 40px 84px 30px 84px;
-	background-color: #0D3691;
-}
 
-footer p {
-	color: white;
-}
-
-.social-buttons {
-	margin-right: 60px;
-}
-
-.fa {
-	padding: 13px;
-    font-size: 17px;
-    color: #E8E8E8;
-    width: 47px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-	border: 2px solid #E8E8E8;
-	transition: .3s;
-	float: right;
-	margin-top: -45px;
-	margin-left: 12px;
-}
-
-.fa:hover {
-	border: 2px solid white;
-	color: white;
-	text-decoration: none;
-}
-
-.fa-envelope {
-	margin-right: 7px;
-}
-
-@media screen and (max-width: 1024px) {
-	footer {
-		height: 100%;
-		padding: 40px 20px 30px 20px;
-	}
-
-	footer p {
-		text-align: center;
-	}
-
-	.social-buttons {
-		display: flex;
-		justify-content: center;
-		margin-right: 0px;
-	}
-
-	.fa {
-		float: center;
-		margin-right: 0px;
-		margin: 10px;
-	}
-}
 
 /* --------------------------- Product pagina --------------------------- */
 
