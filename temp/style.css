@@ -566,7 +566,10 @@ line-height: 0;
 	 padding: 10px;
 	 height: 250px;
 	}
-
+.video {
+	width: 100%;
+	height: auto;
+}
 
 
 /* ---------------------------Ons Doel --------------------------- */
