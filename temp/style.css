@@ -484,7 +484,7 @@ line-height: 0;
 		-ms-transform: rotate(3deg); /* IE 9 */
 	    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
 	    transform: rotate(3deg);
-	}
+	
 }
 @media screen and (max-width: 768px) {
 	.logo-home2 {
