@@ -76,6 +76,7 @@ p {
 	-webkit-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 	-moz-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 	box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
+	box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 }
 
 .navigation-bar ul {
@@ -420,7 +421,7 @@ line-height: 0;
 		padding-top: 10px;
 	}
 
-	.home-container {
+	/* .home-container {
 		display: grid;
 	  grid-template-columns: 3fr 1fr;
 	  grid-template-areas:
@@ -458,7 +459,7 @@ line-height: 0;
 	  background-size: 200%;
 	line-height: 0;
 		margin-left: 455px;
-	}
+	} */
 }
 
 	.div-arrow {
@@ -470,7 +471,7 @@ line-height: 0;
 	.logo-home2 {
 		width: auto;
     height: 250px;
-		margin-top: 25%;
+
 	}
 
 	.quote-home {
@@ -496,7 +497,7 @@ line-height: 0;
 	  background-size: cover;
 
 	}
-	.home-container {
+	/* .home-container {
 		display: grid;
 	  grid-template-columns: 3fr 1fr;
 	  grid-template-areas:
@@ -534,7 +535,7 @@ line-height: 0;
 	  background-size: 200%;
 	line-height: 0;
 		margin-left: 455px;
-	}
+	} */
 }
 @media screen and (max-width: 480px){
 	.logo-home2 {
@@ -544,8 +545,8 @@ line-height: 0;
 
 /* ---------------------------Wat Doen Wij --------------------------- */
 #Watdoenwe{
-	background-color: blue;
-	height: 600px;
+	background-color: #0D3691;
+  padding: 100px 120px 100px 120px;
 	}
 .Images-grid{
 	margin-top: 20px;
@@ -555,6 +556,9 @@ line-height: 0;
 		"home-content1""home-content2"
 	  "home-content1""home-content2";
 
+	}
+	.Watdoenwe-container .row{
+		margin-left: -125px;
 	}
 	.Images-Watdoenwe1 img{
 	 grid-area: home-content1;
@@ -570,6 +574,7 @@ line-height: 0;
 #missie {
 	padding: 100px 70px 100px 70px;
 	margin-top: -20px;
+
 }
 
 .icoon-missie {
@@ -582,13 +587,13 @@ line-height: 0;
 
 #projecten {
 	padding: 100px 120px 100px 120px;
-	background-color: #0D3691;
+	background-color: white;
 	width: 100vw;
 }
 
 .h2-projecten {
 	margin-top: 0px;
-	color: white;
+	color: black;
 }
 
 /* ------- Thumbnail with hover ------- */
@@ -686,9 +691,18 @@ line-height: 0;
 #onsteam {
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-color: #0D3691;
+	width: 100vw;
+
+}
+.col-md-offset-1{
+margin-left: 9.42%;
 }
 
-
+.h2-onsteam{
+	color: white;
+	margin-right: 26px;
+}
 .alle-symbolen-2 {
 	margin-top: 35px;
 	margin-left: 7%;
@@ -703,6 +717,7 @@ line-height: 0;
 
 .p-onsteam {
 	margin-top: 10px;
+		color: white;
 }
 
 .section-about {
