@@ -607,9 +607,11 @@ line-height: 0;
 
 .persoon-foto {
 	width: 80%;
+	border-radius: 160%;
 }
 .persoon-foto-2 {
 	width: 100%;
+		border-radius: 160%;
 }
 
 .p-onsteam {
