@@ -76,6 +76,7 @@ p {
 	-webkit-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 	-moz-box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 	box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
+	box-shadow: 0px 0px 51px -1px rgba(0,0,0,0.36);
 }
 
 .navigation-bar ul {
@@ -327,7 +328,7 @@ p {
   color: #fff;
   background-size: 200%;
 line-height: 0;
-	margin-left: 455px;
+	margin-left: 430px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -414,9 +415,52 @@ line-height: 0;
 @media screen and (max-width: 1024px) {
 	#home {
 		padding-top: 100px!important;
-		background-image: none;
+		background-image: url(links/stockfoto.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
 		padding-top: 10px;
 	}
+
+	/* .home-container {
+		display: grid;
+	  grid-template-columns: 3fr 1fr;
+	  grid-template-areas:
+	  "home-content1 home-content2";
+	}
+
+	.home-container h2{
+	    margin-top: 100px;
+			color: white;
+			font-size: 45px;
+			font-family: 'Nanum Gothic', sans-serif;
+			text-align: center;
+	    margin-top: 280px;
+
+			grid-area: home-content1;
+
+	}
+	.logo-home {
+		width: auto;
+
+		grid-area: home-content2;
+	}
+	.btn1{
+	  position: relative;
+	  background-color: #1368B6;
+	  border: none;
+
+	  padding: 24px;
+	  width: 167px;
+	  height: 48px;
+	  grid-area: home-content1;
+	  border-radius: 50px;
+	  cursor: pointer;
+	  color: #fff;
+	  background-size: 200%;
+	line-height: 0;
+		margin-left: 455px;
+	} */
+}
 
 	.div-arrow {
 		margin-top: 60px;
@@ -427,7 +471,7 @@ line-height: 0;
 	.logo-home2 {
 		width: auto;
     height: 250px;
-		margin-top: 25%;
+
 	}
 
 	h1 {
@@ -445,7 +489,53 @@ line-height: 0;
 @media screen and (max-width: 768px) {
 	.logo-home2 {
 		margin-left: 15%;
+
 	}
+	#home {
+		background-image: url(links/stockfoto.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+
+	}
+	/* .home-container {
+		display: grid;
+	  grid-template-columns: 3fr 1fr;
+	  grid-template-areas:
+	  "home-content1 home-content2";
+	}
+
+	.home-container h2{
+	    margin-top: 100px;
+			color: white;
+			font-size: 45px;
+			font-family: 'Nanum Gothic', sans-serif;
+			text-align: center;
+	    margin-top: 280px;
+
+			grid-area: home-content1;
+
+	}
+	.logo-home {
+		width: auto;
+
+		grid-area: home-content2;
+	}
+	.btn1{
+	  position: relative;
+	  background-color: #1368B6;
+	  border: none;
+
+	  padding: 24px;
+	  width: 167px;
+	  height: 48px;
+	  grid-area: home-content1;
+	  border-radius: 50px;
+	  cursor: pointer;
+	  color: #fff;
+	  background-size: 200%;
+	line-height: 0;
+		margin-left: 455px;
+	} */
 }
 @media screen and (max-width: 480px){
 	.logo-home2 {
@@ -455,8 +545,8 @@ line-height: 0;
 
 /* ---------------------------Wat Doen Wij --------------------------- */
 #Watdoenwe{
-	background-color: blue;
-	height: 600px;
+	background-color: #0D3691;
+  padding: 100px 120px 100px 120px;
 	}
 .Images-grid{
 	margin-top: 20px;
@@ -467,11 +557,14 @@ line-height: 0;
 	  "home-content1""home-content2";
 
 	}
+	.Watdoenwe-container .row{
+		margin-left: -125px;
+	}
 	.Images-Watdoenwe1 img{
 	 grid-area: home-content1;
 	 width: auto;
 	 padding: 10px;
-	 height: 270px;
+	 height: 250px;
 	}
 
 
@@ -481,6 +574,7 @@ line-height: 0;
 #missie {
 	padding: 100px 70px 100px 70px;
 	margin-top: -20px;
+
 }
 
 .icoon-missie {
@@ -493,13 +587,13 @@ line-height: 0;
 
 #projecten {
 	padding: 100px 120px 100px 120px;
-	background-color: #0D3691;
+	background-color: white;
 	width: 100vw;
 }
 
 .h2-projecten {
 	margin-top: 0px;
-	color: white;
+	color: black;
 }
 
 /* ------- Thumbnail with hover ------- */
@@ -597,9 +691,21 @@ line-height: 0;
 #onsteam {
 	padding-top: 100px;
 	padding-bottom: 100px;
+	background-color: #0D3691;
+	width: 100vw;
+
+}
+.h2-Watdoenwe{
+	color: white;
+}
+.col-md-offset-1{
+margin-left: 9.42%;
 }
 
-
+.h2-onsteam{
+	color: white;
+	margin-right: 26px;
+}
 .alle-symbolen-2 {
 	margin-top: 35px;
 	margin-left: 7%;
@@ -616,6 +722,7 @@ line-height: 0;
 
 .p-onsteam {
 	margin-top: 10px;
+		color: white;
 }
 
 .section-about {
