@@ -9,9 +9,9 @@ html, body {
 }
 
 h1 {
-	color: white;
-	font-size: 55px;
-	font-family: 'Nanum Gothic', sans-serif;
+	color: #C4B356;
+	font-size: 60px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -474,7 +474,7 @@ line-height: 0;
 
 	}
 
-	.quote-home {
+	h1 {
 		width: 350px;
 		display: block;
 		margin-left: auto;
@@ -716,9 +716,11 @@ margin-left: 9.42%;
 
 .persoon-foto {
 	width: 80%;
+	border-radius: 160%;
 }
 .persoon-foto-2 {
 	width: 100%;
+		border-radius: 160%;
 }
 
 .p-onsteam {
