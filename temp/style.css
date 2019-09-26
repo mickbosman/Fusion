@@ -349,6 +349,9 @@ line-height: 0;
   background-size: cover;
 
 }
+.h3-home{
+	color: white;
+}
 .home-container {
 	display: grid;
   grid-template-columns: 3fr 1fr;
@@ -484,7 +487,7 @@ line-height: 0;
 		-ms-transform: rotate(3deg); /* IE 9 */
 	    -webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
 	    transform: rotate(3deg);
-	
+
 }
 @media screen and (max-width: 768px) {
 	.logo-home2 {
@@ -551,7 +554,7 @@ line-height: 0;
 .Images-grid{
 	margin-top: 20px;
 	display: grid;
-		grid-template-columns: 1fr 400px;
+		grid-template-columns: 750px auto;
 		grid-template-areas:
 		"home-content1""home-content2"
 	  "home-content1""home-content2";
@@ -560,6 +563,10 @@ line-height: 0;
 	.Watdoenwe-container .row{
 		margin-left: -125px;
 	}
+	.Images-Watdoenwe1{
+		height: 500px;
+		width: 750px;
+	}
 	.Images-Watdoenwe1 img{
 	 grid-area: home-content1;
 	 width: auto;
@@ -567,8 +574,13 @@ line-height: 0;
 	 height: 250px;
 	}
 .video {
-	width: 100%;
+	width: 663px;;
 	height: auto;
+
+	grid-row: 1;
+	grid-column: 2;
+	margin-top: 50px;
+
 }
 
 
