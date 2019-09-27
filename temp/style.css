@@ -344,13 +344,14 @@ line-height: 0;
 	width: 100vw;
 	height: 100vh;
 	padding-top: 60px;
-	background-image: url(links/stockfoto.jpg);
+	background-image: url(links/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 .h3-home{
-	color: white;
+	color: black;
+	font-size: 16px;
 }
 .home-container {
 	display: grid;
@@ -361,7 +362,7 @@ line-height: 0;
 
 .home-container h2{
     margin-top: 100px;
-		color: white;
+		color: black;
 		font-size: 45px;
 		font-family: 'Nanum Gothic', sans-serif;
 		text-align: center;
@@ -608,8 +609,8 @@ margin-left: -300px
 	.Images-Watdoenwe1 img{
 	 grid-area: home-content1;
 	 width: auto;
-	 padding: 10px;
 	 height: 250px;
+
 	}
 .video {
 	width: 663px;
@@ -686,6 +687,7 @@ margin-left: -300px
 	opacity: 0;
 	transition: .5s;
 	background-color: #0D3691;
+
 }
 
 .content-overlay {
