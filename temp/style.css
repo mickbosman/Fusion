@@ -500,6 +500,7 @@ line-height: 0;
 	  background-size: cover;
 
 	}
+
 	/* .home-container {
 		display: grid;
 	  grid-template-columns: 3fr 1fr;
@@ -544,12 +545,49 @@ line-height: 0;
 	.logo-home2 {
 		height: 175px;
 	}
+	.home-container h2{
+		margin-top: 120px
+	}
+	#home{
+		width: 100vw;
+		padding-top: 0 !important;
+	}
+	.btn-text{
+		padding: 0;
+		margin: 0;
+		width: 100vw;
+	}
+	.btn-text a{
+margin-left: -300px
+	}
+	.logo-home{
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+	.btn-text{
+		padding: 0;
+		margin: 0;
+		width: 65vw;
+	}
+	.home-container h2{
+		margin-top: 80px
+	}
+	.btn-text a{
+		margin-left: -350px
+			}
+			.logo-home {
+				width: auto;
+				height: 218px;
+				margin-top: 60px;
+		}
 }
 
 /* ---------------------------Wat Doen Wij --------------------------- */
 #Watdoenwe{
 	background-color: #0D3691;
-  padding: 100px 120px 100px 120px;
+	padding: 10px 0 40px;
+	width: 100vw;
 	}
 .Images-grid{
 	margin-top: 20px;
@@ -560,9 +598,9 @@ line-height: 0;
 	  "home-content1""home-content2";
 
 	}
-	.Watdoenwe-container .row{
+	/* .Watdoenwe-container .row{
 		margin-left: -125px;
-	}
+	} */
 	.Images-Watdoenwe1{
 		height: 500px;
 		width: 750px;
@@ -574,14 +612,17 @@ line-height: 0;
 	 height: 250px;
 	}
 .video {
-	width: 663px;;
+	width: 663px;
 	height: auto;
-
 	grid-row: 1;
 	grid-column: 2;
 	margin-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
 
 }
+
 
 
 /* ---------------------------Ons Doel --------------------------- */
@@ -614,7 +655,7 @@ line-height: 0;
 /* ------- Thumbnail with hover ------- */
 
 .img-section {
-	padding: 13px;
+	padding: 5px;
 }
 
 .img_thumbnail {
@@ -627,6 +668,10 @@ line-height: 0;
 	float: left!important;
 }
 
+.img_thumbnail-1 {
+	height: 100%;
+}
+
 .img-section:hover .overlay {
 	opacity: 0.7;
 }
@@ -637,7 +682,7 @@ line-height: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin: 13px;
+	margin: 5px;
 	opacity: 0;
 	transition: .5s;
 	background-color: #0D3691;
@@ -700,7 +745,11 @@ line-height: 0;
 		padding: 100px 20px 100px 20px;
 	}
 }
-
+@media screen and (min-width: 480px){
+	.img_thumbnail {
+		height: 250px;
+	}
+}
 /* --------------------------- Ons team --------------------------- */
 
 #onsteam {
@@ -713,9 +762,9 @@ line-height: 0;
 .h2-Watdoenwe{
 	color: white;
 }
-.col-md-offset-1{
+/* .col-md-offset-1{
 margin-left: 9.42%;
-}
+} */
 
 .h2-onsteam{
 	color: white;
@@ -761,23 +810,26 @@ margin-left: 9.42%;
 	.persoon-foto {
 		width: 100%
 	}
+}
+
+/* @media screen and (min-width: 480px) and (max-width: 1023px) {
+
+} */
+
+@media screen and (min-width: 768) and (max-width: 1024px) {
 	.alle-symbolen-2 {
-		margin-left: 16.66666667%;
+		margin-left: 0 !important;
 	}
-}
-
-@media screen and (min-width: 480px) and (max-width: 1023px) {
-
-}
-
-@media screen and (min-width: 1024px) {
-
+	.alle-symbolen {
+		margin-left: 0 !important;
+	}
 }
 
 @media screen and (max-width: 1024px) {
 	#onsteam {
 		padding: 100px 20px 100px 20px;
 	}
+
 }
 
 /* --------------------------- Contact --------------------------- */
